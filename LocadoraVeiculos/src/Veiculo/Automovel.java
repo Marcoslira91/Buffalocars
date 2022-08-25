@@ -16,21 +16,19 @@ public class Automovel {
 		this.valorLocacao = _valorLocacao;
 	}
 
-	public String conAutomovel() {
-		return null;
+	public void conAutomovel() {
+		
 	}
 
-	public void cadastrarAuto() {
+	public void  cadastrarAuto() {
 
 	}
 
-	public String editarAuto() {
-		return null;
+	public void editarAuto() {
+	 
 	}
 
-	public String removerAuto() {
-		return null;
-
+	public void removerAuto() {
 	}
 
 	public String getPlaca() {
@@ -55,6 +53,7 @@ public class Automovel {
 
 	public void setNumPorta(int numPorta) {
 		this.numPorta = numPorta;
+	
 	}
 
 	public String getTipoCombu() {
