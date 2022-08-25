@@ -1,15 +1,16 @@
-package Pessoas;
 
-public class Pessoa {
+public abstract class Pessoa {
 
+	// Atributos
 	private String nome;
 	private int idade;
 	private char sexo;
 	private long cpf;
-	private String end;
+	private String end;//criar classe
 	private long fone;
 	private String email;
 
+	// Contrutore
 	public Pessoa(String _nome, int _idade, char _sexo, long _cpf, String _end, long _fone, String _email) {
 		this.nome = _nome;
 		this.idade = _idade;
@@ -75,11 +76,6 @@ public class Pessoa {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-	@Override
-	public String toString() {
-		return "Pessoa [Nome é " + nome + ", idade é " + idade + ", sexo " + sexo + ", CPF: " + cpf + ", End. " + end
-				+ ", fone " + fone + ", e-mail " + email + "]";
-	}
-
+	
+	
 }
