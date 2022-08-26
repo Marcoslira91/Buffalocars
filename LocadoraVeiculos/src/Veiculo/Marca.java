@@ -21,13 +21,10 @@ public class Marca extends Modelo{
 	}
 	@Override
 	public String toString() {
-		return "Marca [descricao=" + descricao + ", getDescricao()=" + getDescricao() + ", getCategoria()="
-				+ getCategoria() + ", getCapacidade()=" + getCapacidade() + ", getMotor()=" + getMotor()
-				+ ", getPlaca()=" + getPlaca() + ", getCor()=" + getCor() + ", getNumPorta()=" + getNumPorta()
-				+ ", getTipoCombu()=" + getTipoCombu() + ", getValorLocacao()=" + getValorLocacao() + ", toString()="
-				+ super.toString() + "]";
+		return "Descricao: " + descricao + "\nCategoria: "
+				+ getCategoria() + "\nCapacidade: " + getCapacidade() + "\nMotor: " + getMotor()
+				+ "\nPlaca: " + getPlaca() + "\nCor: " + getCor() + "\nNumPorta: " + getNumPorta()+" portas"
+				+ "\nTipoCombu: " + getTipoCombu() + "\nValorLocacao: R$ " + getValorLocacao();
 	}
-		public void Printador(Marca auto) {
-			System.out.println(toString( ));
-		}
+	
 }
