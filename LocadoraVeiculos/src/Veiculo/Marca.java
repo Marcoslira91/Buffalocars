@@ -24,7 +24,7 @@ public class Marca extends Modelo{
 		return "Descricao: " + descricao + "\nCategoria: "
 				+ getCategoria() + "\nCapacidade: " + getCapacidade() + "\nMotor: " + getMotor()
 				+ "\nPlaca: " + getPlaca() + "\nCor: " + getCor() + "\nNumPorta: " + getNumPorta()+" portas"
-				+ "\nTipoCombu: " + getTipoCombu() + "\nValorLocacao: R$ " + getValorLocacao();
+				+ "\nTipoCombu: " + getTipoCombu() + "\nValorLocacao: R$ " + getValorLocacao()+"\n";
 	}
 	
 }
