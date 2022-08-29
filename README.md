@@ -1,7 +1,8 @@
 <h1 align="center">Buffalocars - Locadora de veiculos</h1>
 
   <h1 align="center">
-    <img alt="Feito pelo Grupo Buffalo" src="https://img.shields.io/static/v1?label=Feito&message=Pelo Grupo Buffalo&color=brightgreen">
+  	<img alt="Feito pelo Grupo Buffalo" src="https://img.shields.io/static/v1?label=Feito&message=Pelo Grupo Buffalo&color=brightgreen">
+	<img alt="contributors 4" src="https://img.shields.io/static/v1?label=contributors&message=4&color=blue">
         <img alt="COVERAGE 78%" src="https://img.shields.io/static/v1?label=COVERAGE&message=78%&color=blueviolet">
   </h1>
   
@@ -31,7 +32,7 @@ Toda a documentação utilizada para o desenvolvimento do projeto está anexado 
 
 Para executar os testes realizados neste projeto, é preciso fazer o download do repositório no GitHub.
 
-# Pré-requisito
+### Pré-requisito
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
 - Java JDK
