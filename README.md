@@ -39,8 +39,10 @@ Para executar os testes realizados neste projeto, é preciso fazer o download do
 <h2>📝 Pré-requisito</h2>
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
-- [ ] Java JDK
-- [ ] Git
+<ul>
+	<li>Java JDK</li>
+	<li>Git</li>
+</ul>
 
 Além disto é bom ter um editor para trabalhar com o código como Eclipse IDE for Java Developers ou VSCode.
 
@@ -48,9 +50,9 @@ Além disto é bom ter um editor para trabalhar com o código como Eclipse IDE f
 
 As seguintes ferramentas foram usadas na construção do projeto:
 <ul>
-	<li>[ ] Java JDK</li>
-	<li>[ ] Java</li>
-	<li>[ ] UML</li>
+	<li>Java JDK</li>
+	<li>Java</li>
+	<li>UML</li>
 </ul>
 
 <h2>👥 Autores</h2>
