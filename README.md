@@ -32,7 +32,7 @@ Toda a documentação utilizada para o desenvolvimento do projeto está anexado 
 
 ## 🔄 Como executar o projeto
 
-Para executar os testes realizados neste projeto, é preciso fazer o download do repositório no [GitHub](https://github.com/Marcoslira91/Buffalocars.git) 
+Para executar os testes realizados neste projeto, é preciso fazer o download do repositório no [GitHub](https://github.com/Marcoslira91/Buffalocars/) 
 
 ### 📝 Pré-requisito
 
