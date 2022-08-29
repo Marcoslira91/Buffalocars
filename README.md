@@ -21,7 +21,7 @@ A aplicação foi desenvolvida pela equipe da BuffaloCars e utilizada para desen
 
 ## 📋 Documentação
 
-Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do [GitHub]()
+Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do [GitHub](https://github.com/Marcoslira91/Buffalocars/) 
 
 ## ⚙ Funcionalidades
 - [ ] Cadastrar um usuário;
