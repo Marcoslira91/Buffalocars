@@ -7,6 +7,7 @@
         <img alt="COVERAGE 78%" src="https://img.shields.io/static/v1?label=COVERAGE&message=78%&color=blueviolet">
   </h1>
   
+  
  ## Sobre o Projeto
 
 O sistema BuffaloCars é uma aplicação criada para gerenciar o sistema de locação de carros em Java para um locadora de veículos.
@@ -22,6 +23,10 @@ A aplicação foi desenvolvida pela equipe da BuffaloCars e utilizada para desen
 ## 📋 Documentação
 
 Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do [GitHub](https://github.com/Marcoslira91/Buffalocars/) 
+
+<h1>HTML</h1>
+<a href="https://github.com/Marcoslira91/Buffalocars/">GitHub</a>
+
 
 ## ⚙ Funcionalidades
 - [ ] Cadastrar um usuário;
