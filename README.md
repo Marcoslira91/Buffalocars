@@ -6,9 +6,8 @@
 	<img alt="CONTRIBUTORS 4" src="https://img.shields.io/static/v1?label=CONTRIBUTORS&message=4&color=blue">
         <img alt="COVERAGE 78%" src="https://img.shields.io/static/v1?label=COVERAGE&message=78%&color=blueviolet">
   </h1>
-  
-  
- ## Sobre o Projeto
+    
+ <h2>Sobre o Projeto</h2>
 
 O sistema BuffaloCars é uma aplicação criada para gerenciar o sistema de locação de carros em Java para um locadora de veículos.
 
@@ -18,25 +17,26 @@ O sistema BuffaloCars, é possivel cadastras novos veiculos, atua os veiculosvei
 
 A aplicação foi desenvolvida pela equipe da BuffaloCars e utilizada para desenvolvimento os conhecimento obtidos pelos mesmos no Módulo I do Curso de Qualificação Socioprofissional em Programação de Software do Instituto de Administração e Tecnologia.
 
-## Sumário
+<h2>Sumário</h2>
 
-<h2>📋 Documentação</h1>
+<h2>📋 Documentação</h2>
 Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do
 <a href="https://github.com/Marcoslira91/Buffalocars/">GitHub</a>
 
 
-## ⚙ Funcionalidades
+<h2>⚙ Funcionalidades</h2>
+
 - [ ] Cadastrar um usuário;
 - [ ] Atualizar as informações básicas de um usuário, visando manter todas as informações do mesmo atualizada;
 - [ ] Cadastrar novos veiculos;
 - [ ] Locar veiculos;
 - [ ] Atualizar as informações dos veiculos já cadastrados no sistema.
 
-## 🔄 Como executar o projeto
+<h2>🔄 Como executar o projeto</h2>
 
 Para executar os testes realizados neste projeto, é preciso fazer o download do repositório no [GitHub](https://github.com/Marcoslira91/Buffalocars/) 
 
-### 📝 Pré-requisito
+<h2>📝 Pré-requisito</h2>
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
 - [ ] Java JDK
@@ -44,14 +44,14 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 Além disto é bom ter um editor para trabalhar com o código como Eclipse IDE for Java Developers ou VSCode.
 
-## 🛠 Tecnologias
+<h2>🛠 Tecnologias</h2>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 - [ ] Java JDK
 - [ ] Java
 - [ ] UML
 
-## 👥 Autores
+<h2>👥 Autores</h2>
 [Davi Lisias](https://www.linkedin.com/in/davi-lisias-aa72b4141/)
 
 [Jonathan Duarte](https://www.linkedin.com/in/jonathan-duarte-62331582/)
