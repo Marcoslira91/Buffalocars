@@ -3,7 +3,7 @@
   <h1 align="center">
   	<img alt="FEITO PELO GRUPO BUFFALO" src="https://img.shields.io/static/v1?label=FEITO&message=PELO GRUPO BUFFALO&color=brightgreen">
 	<img alt="STATUS EM DESENVOLVIMENTO" src="https://img.shields.io/static/v1?label=STATUS&message=EM DESENVOLVIMENTO&color=brightgreen">
-	<img alt="contributors 4" src="https://img.shields.io/static/v1?label=contributors&message=4&color=blue">
+	<img alt="CONTRIBUTORS 4" src="https://img.shields.io/static/v1?label=CONTRIBUTORS&message=4&color=blue">
         <img alt="COVERAGE 78%" src="https://img.shields.io/static/v1?label=COVERAGE&message=78%&color=blueviolet">
   </h1>
   
@@ -19,37 +19,41 @@ A aplicação foi desenvolvida pela equipe da BuffaloCars e utilizada para desen
 
 ## Sumário
 
-## Documentação
+## 📋 Documentação
 
-Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do GitHub
+Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do [GitHub]()
 
-## Funcionalidades
-- Cadastrar um usuário;
-- Atualizar as informações básicas de um usuário, visando manter todas as informações do mesmo atualizada;
-- Cadastrar novos veiculos;
-- Atualizar as informações dos veiculos já cadastrados no sistema.
+## ⚙ Funcionalidades
+- [ ] Cadastrar um usuário;
+- [ ] Atualizar as informações básicas de um usuário, visando manter todas as informações do mesmo atualizada;
+- [ ] Cadastrar novos veiculos;
+- [ ] Locar veiculos;
+- [ ] Atualizar as informações dos veiculos já cadastrados no sistema.
 
-## Como executar o projeto
+## 🔄 Como executar o projeto
 
-Para executar os testes realizados neste projeto, é preciso fazer o download do repositório no GitHub.
+Para executar os testes realizados neste projeto, é preciso fazer o download do repositório no GitHub 
 
-### Pré-requisito
+### 📝 Pré-requisito
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
-- Java JDK
-- Git
+- [ ] Java JDK
+- [ ] Git
 
 Além disto é bom ter um editor para trabalhar com o código como Eclipse IDE for Java Developers ou VSCode.
 
-## Tecnologias
+## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
-- Java JDK
-- Java
-- UML
+- [ ] Java JDK
+- [ ] Java
+- [ ] UML
 
-## Autores
+## 👥 Autores
 [Davi Lisias](https://www.linkedin.com/in/davi-lisias-aa72b4141/)
+
 [Jonathan Duarte](https://www.linkedin.com/in/jonathan-duarte-62331582/)
+
 [Luana Pinto](https://www.linkedin.com/in/luanactpinto/)
+
 [Marcos Lira](https://www.linkedin.com/in/marcoslira91/)
