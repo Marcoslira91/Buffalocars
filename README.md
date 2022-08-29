@@ -57,12 +57,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <h2>👥 Autores</h2>
 	
-[Davi Lisias](https://www.linkedin.com/in/davi-lisias-aa72b4141/)
-
-[Jonathan Duarte](https://www.linkedin.com/in/jonathan-duarte-62331582/)
-
-[Luana Pinto](https://www.linkedin.com/in/luanactpinto/)
-
-[Marcos Lira](https://www.linkedin.com/in/marcoslira91/)
+<a href="https://www.linkedin.com/in/davi-lisias-aa72b4141/">Davi Lisias</a>
 	
+<a href="https://www.linkedin.com/in/jonathan-duarte-62331582/">Jonathan Duarte</a>
+	
+<a href="https://www.linkedin.com/in/luanactpinto/">Luana Pinto</a>
+	
+<a href="https://www.linkedin.com/in/marcoslira91/">Marcos Lira</a>
 	
