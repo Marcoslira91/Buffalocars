@@ -2,7 +2,7 @@
 
   <h1 align="center">
   	<img alt="FEITO PELO GRUPO BUFFALO" src="https://img.shields.io/static/v1?label=FEITO&message=PELO GRUPO BUFFALO&color=brightgreen">
-	<img alt="STATUS EM DESENVOLVIMENTO" src="https://img.shields.io/static/v1?label=STATUS&message=EM DESENVOLVIMENTO Buffalo&color=brightgreen">
+	<img alt="STATUS EM DESENVOLVIMENTO" src="https://img.shields.io/static/v1?label=STATUS&message=EM DESENVOLVIMENTO&color=brightgreen">
 	<img alt="contributors 4" src="https://img.shields.io/static/v1?label=contributors&message=4&color=blue">
         <img alt="COVERAGE 78%" src="https://img.shields.io/static/v1?label=COVERAGE&message=78%&color=blueviolet">
   </h1>
