@@ -47,11 +47,14 @@ Além disto é bom ter um editor para trabalhar com o código como Eclipse IDE f
 <h2>🛠 Tecnologias</h2>
 
 As seguintes ferramentas foram usadas na construção do projeto:
-- [ ] Java JDK
-- [ ] Java
-- [ ] UML
+<ul>
+	<li>[ ] Java JDK</li>
+	<li>[ ] Java</li>
+	<li>[ ] UML</li>
+</ul>
 
 <h2>👥 Autores</h2>
+	
 [Davi Lisias](https://www.linkedin.com/in/davi-lisias-aa72b4141/)
 
 [Jonathan Duarte](https://www.linkedin.com/in/jonathan-duarte-62331582/)
@@ -59,3 +62,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 [Luana Pinto](https://www.linkedin.com/in/luanactpinto/)
 
 [Marcos Lira](https://www.linkedin.com/in/marcoslira91/)
+	
+	
