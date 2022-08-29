@@ -20,11 +20,8 @@ A aplicação foi desenvolvida pela equipe da BuffaloCars e utilizada para desen
 
 ## Sumário
 
-## 📋 Documentação
-
-Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do [GitHub](https://github.com/Marcoslira91/Buffalocars/) 
-
-<h1>HTML</h1>
+<h2>📋 Documentação</h1>
+Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do
 <a href="https://github.com/Marcoslira91/Buffalocars/">GitHub</a>
 
 
