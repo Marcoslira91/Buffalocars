@@ -40,8 +40,8 @@ Para executar os testes realizados neste projeto, é preciso fazer o download do
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
 <ul>
-	<li>Java JDK</li>
-	<li>Git</li>
+	<li><a href="https://www.oracle.com/java/technologies/downloads/">Java JDK</a></li>
+	<li><a href="https://git-scm.com/">Git</li>
 </ul>
 
 Além disto é bom ter um editor para trabalhar com o código como Eclipse IDE for Java Developers ou VSCode.
@@ -50,8 +50,8 @@ Além disto é bom ter um editor para trabalhar com o código como Eclipse IDE f
 
 As seguintes ferramentas foram usadas na construção do projeto:
 <ul>
-	<li>Java JDK</li>
-	<li>Java</li>
+	<li><a href="https://www.oracle.com/java/technologies/downloads/">Java JDK</a></li>
+	<li><a href="https://www.java.com/pt-BR/">Java</li>
 	<li>UML</li>
 </ul>
 
