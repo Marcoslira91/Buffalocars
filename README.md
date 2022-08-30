@@ -1,4 +1,4 @@
-<h1 align="center">Buffalocars - Locadora de veiculos</h1>
+<h1 align="center">BuffaloCars - Locadora de veiculos</h1>
 
   <h1 align="center">
   	<img alt="FEITO PELO GRUPO BUFFALO" src="https://img.shields.io/static/v1?label=FEITO&message=PELO GRUPO BUFFALO&color=brightgreen">
@@ -6,6 +6,8 @@
 	<img alt="CONTRIBUTORS 4" src="https://img.shields.io/static/v1?label=CONTRIBUTORS&message=4&color=blue">
         <img alt="COVERAGE 78%" src="https://img.shields.io/static/v1?label=COVERAGE&message=78%&color=blueviolet">
   </h1>
+  
+  <h4 align="center"> 🚧 BuffaloCar 🚀 Em construção 🚧</h4>
     
  <h2>Sobre o Projeto</h2>
 
@@ -18,6 +20,16 @@ O sistema BuffaloCars, é possivel cadastras novos veiculos, atua os veiculosvei
 A aplicação foi desenvolvida pela equipe da BuffaloCars e utilizada para desenvolvimento os conhecimento obtidos pelos mesmos no Módulo I do Curso de Qualificação Socioprofissional em Programação de Software do Instituto de Administração e Tecnologia.
 
 <h2>Sumário</h2>
+
+<p aling="center">
+	<a href="#Documentação">Documentação</a>
+	<a href="#Funcionalidades">Funcionalidades</a>
+	<a href="#Como executar o projeto">Como executar o projeto</a>
+	<a href="#Pré-requisito">Pré-requisito</a>
+	<a href="#Tecnologias">Tecnologias</a>
+	<a href="#Autores">Autores</a>
+</p>
+	
 
 <h2>📋 Documentação</h2>
 Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do
@@ -43,8 +55,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 	<li><a href="https://www.oracle.com/java/technologies/downloads/">Java JDK</a></li>
 	<li><a href="https://git-scm.com/">Git</li>
 </ul>
-
-Além disto é bom ter um editor para trabalhar com o código como Eclipse IDE for Java Developers ou VSCode.
+<a>Além disto é bom ter um editor para trabalhar com o código como Eclipse IDE for Java Developers ou VSCode.</a>
 
 <h2>🛠 Tecnologias</h2>
 
