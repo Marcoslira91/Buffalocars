@@ -1,7 +1,7 @@
 package Veiculo;
 import java.util.scanner;
 import Marca;
-public class Teste {
+public class teste {
 
 	public static void main(String[] args) {
 	/*	
@@ -16,30 +16,41 @@ public class Teste {
 	Marca auto9= new Marca("PET 7Y25", "Preto",2,"Flex",150.0,"PickUp",2,1.4,"Chevrolet Montana");
 	Marca auto10= new Marca("RYU 8I90","Prata Sand",4,"Flex",85,"Sedan",5,1.6,"Hyundai HB20S");
 	*/
-	 Scanner input= new Scanner(System.in);
-	 Marca auto[]=new Marca[30];
+		 Scanner input= new Scanner(System.in);
 	 
-	auto[]= Cadastrar_veiculo(Marca[]);
-
+	 int d;
+		System.out.println("Deseja parar cadastar veicul0? 1 para sim 0 para não");
+		d=input.nextInt();
+		if(d==1) {
+		Cadastrar_veiculo();
+		}
 	}
-	public Marca Cadastrar_veiculo(Marca lista[]) {
-		
-		for(int i =0; i<30;i++) {
+
+	
+	public static Marca Cadastrar_veiculo()  {
+		Marca auto[]=new Marca[15];
+	 Scanner input= new Scanner(System.in);
+		for(int i =0; i<auto.length;i++) {
 		System.out.println("Digite as seguintes a tribuições em ordem para cadastrar um veículo.\nAo término de digitar cada pressione enter.");
 		System.out.println("Placa\nCor\n\nNumero de portas\nTipo de combustivel\nValor de localção\nTipo de carro\nQuantas pessoas\nTipo do motor\nNome do modelo");
 		
-		Marca[i]=input.nextMarca();		
+
+		auto[i]=input.nextMarca();
 		
-		System.out.println("Deseja parar? Pressione S ou s.");
-	    char decis= new char();
-		decis=input.nextChar();
+		System.out.println("Deseja parar? Pressione s.");
 		
-		if(decis== 's' || 'S') {
+	    char d=input.next().charAt(0);
+		
+		if(d=='s') {
 			break;
-			return 0;
+			
 		}
 	}
-		return lista[];
+		System.out.println("Aqui segue a lista de carros");
+		
+		for(int k=0;k<auto.length;k++) {
+			
+			System.out.println(auto[k]);
 }
 		
 	}
