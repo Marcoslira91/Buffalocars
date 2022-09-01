@@ -21,6 +21,18 @@ A aplicação foi desenvolvida pela equipe da BuffaloCars e utilizada para desen
 
 <h2>Sumário</h2>
 
+<!--ts-->
+   * [Documentação](#Documentação)
+   * [Funcionalidade](#Funcionalidade)
+   * [Como executar o projeto](#Como-executar-o-projeto)
+   * [Pré Requisitos](#Pré-Requisitos)
+   * [Tecnologias](#Tecnologias)
+   * [Autores](#Autores)
+<!--te-->
+
+
+
+
 <p aling="center">
 	<a href="#Documentação">Documentação</a>
 	<a href="#Funcionalidades">Funcionalidades</a>
