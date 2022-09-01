@@ -74,4 +74,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://www.linkedin.com/in/luanactpinto/">Luana Pinto</a>
 	
 <a href="https://www.linkedin.com/in/marcoslira91/">Marcos Lira</a>
+
+![WhatsApp Image 2022-09-01 at 20 09 28](https://user-images.githubusercontent.com/111930363/188027927-8933ab22-58da-42af-85b2-b8eef7df4254.jpeg)
 	
