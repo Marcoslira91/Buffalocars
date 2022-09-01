@@ -35,7 +35,8 @@ Toda a documentação utilizada para o desenvolvimento do projeto está anexado 
 <a href="https://github.com/Marcoslira91/Buffalocars/">GitHub</a>
 
 <h2>📊 UML</h2>
-![WhatsApp Image 2022-09-01 at 20 09 28](https://user-images.githubusercontent.com/111930363/188028720-f5a444f0-50cf-4f75-aca4-763a1ce9a1fa.jpeg)
+
+![WhatsApp Image 2022-09-01 at 20 09 28](https://user-images.githubusercontent.com/111930363/188027927-8933ab22-58da-42af-85b2-b8eef7df4254.jpeg)
 
 <h2>⚙ Funcionalidades</h2>
 
