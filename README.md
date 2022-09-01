@@ -34,6 +34,8 @@ A aplicação foi desenvolvida pela equipe da BuffaloCars e utilizada para desen
 Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do
 <a href="https://github.com/Marcoslira91/Buffalocars/">GitHub</a>
 
+<h2>📊 UML</h2>
+![WhatsApp Image 2022-09-01 at 20 09 28](https://user-images.githubusercontent.com/111930363/188028720-f5a444f0-50cf-4f75-aca4-763a1ce9a1fa.jpeg)
 
 <h2>⚙ Funcionalidades</h2>
 
