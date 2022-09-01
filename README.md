@@ -30,19 +30,6 @@ A aplicação foi desenvolvida pela equipe da BuffaloCars e utilizada para desen
    * [Autores](#Autores)
 <!--te-->
 
-
-
-
-<p aling="center">
-	<a href="#Documentação">Documentação</a>
-	<a href="#Funcionalidades">Funcionalidades</a>
-	<a href="#Como executar o projeto">Como executar o projeto</a>
-	<a href="#Pré-requisito">Pré-requisito</a>
-	<a href="#Tecnologias">Tecnologias</a>
-	<a href="#Autores">Autores</a>
-</p>
-	
-
 <h2>📋 Documentação</h2>
 Toda a documentação utilizada para o desenvolvimento do projeto está anexado no repositorio do
 <a href="https://github.com/Marcoslira91/Buffalocars/">GitHub</a>
