@@ -37,6 +37,8 @@ Toda a documentação utilizada para o desenvolvimento do projeto está anexado 
 
 <h2>📊 UML</h2>
 
+O diagrama de classes UML é uma notação gráfica usada para construir e visualizar sistemas orientados a objetos. Um diagrama de classes na Unified Modeling Language (UML) é um tipo de diagrama de estrutura estática que descreve a estrutura do sistema em execução:
+
 ![WhatsApp Image 2022-09-01 at 20 09 28](https://user-images.githubusercontent.com/111930363/188027927-8933ab22-58da-42af-85b2-b8eef7df4254.jpeg)
 
 <h2>⚙ Funcionalidades</h2>
