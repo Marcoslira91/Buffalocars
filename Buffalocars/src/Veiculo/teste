@@ -26,16 +26,15 @@ public class teste {
 		}
 	}
 
-	
-	public static Marca Cadastrar_veiculo()  {
-		Marca auto[]=new Marca[15];
+		public static Automovel Cadastrar_veiculo()  {
+		Automovel auto[]=new Automovel[15];
 	 Scanner input= new Scanner(System.in);
 		for(int i =0; i<auto.length;i++) {
 		System.out.println("Digite as seguintes a tribuições em ordem para cadastrar um veículo.\nAo término de digitar cada pressione enter.");
 		System.out.println("Placa\nCor\n\nNumero de portas\nTipo de combustivel\nValor de localção\nTipo de carro\nQuantas pessoas\nTipo do motor\nNome do modelo");
 		
 
-		auto[i]=input.nextMarca();
+		auto[i].placa=input.next();
 		
 		System.out.println("Deseja parar? Pressione s.");
 		
