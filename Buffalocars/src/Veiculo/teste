@@ -1,32 +1,5 @@
-package Veiculo;
-import java.util.scanner;
-import Marca;
-public class teste {
 
-	public static void main(String[] args) {
-	/*	
-	Marca auto1 = new Marca("RTI 1C34","Preto",4, "Flex",100.0,"Hatch",5,1.6,"VolksWagen Gol");
-	Marca auto2= new Marca("RTO 2F93", "Prata", 4, "Flex", 100.0, "Hatchback", 5,1.0, "Fiat UNO");
-	Marca auto3= new Marca("PHL 4O75", "Laranja", 4, "Elétrico", 250.0,"Hatch",5,1.4,"Peugeot e-208 GT");
-	Marca auto4= new Marca("BRR 4T66", "Vermelho",4,"Flex", 110.0, "Sedan",5,1.0,"Ford KA");
-	Marca auto5= new Marca("EUA 3G08", "Prata", 2,"Diesel",300.0,"Pickup", 2,2.8,"Chevrolet S-10");
-	Marca auto6= new Marca("TIE 4A12", "Branco",4,"Alcool",60.0 ,"SUV",5,1.5,"Honda HRV");
-	Marca auto7= new Marca("JUI 8P98","Cinza",3,"Flex",200.0,"MiniVan",8,1.8,"Fiat Doblo" );
-	Marca auto8= new Marca("TAE 6R33", "Azul", 2,"Gasolina",330.0,"Couper",2,2.0,"BMW Cooper");
-	Marca auto9= new Marca("PET 7Y25", "Preto",2,"Flex",150.0,"PickUp",2,1.4,"Chevrolet Montana");
-	Marca auto10= new Marca("RYU 8I90","Prata Sand",4,"Flex",85,"Sedan",5,1.6,"Hyundai HB20S");
-	*/
-		 Scanner input= new Scanner(System.in);
-	 
-	 int d;
-		System.out.println("Deseja parar cadastar veicul0? 1 para sim 0 para não");
-		d=input.nextInt();
-		if(d==1) {
-		Cadastrar_veiculo();
-		}
-	}
-
-		public static Automovel Cadastrar_veiculo()  {
+	public static void  Cadastrar_veiculo()  {
 		Automovel auto[]=new Automovel[15];
 	 Scanner input= new Scanner(System.in);
 		for(int i =0; i<auto.length;i++) {
@@ -34,7 +7,7 @@ public class teste {
 		System.out.println("Placa\nCor\n\nNumero de portas\nTipo de combustivel\nValor de localção\nTipo de carro\nQuantas pessoas\nTipo do motor\nNome do modelo");
 		
 
-		auto[i].placa=input.next();
+		auto[i].setPlaca(input.nextLine());
 		
 		System.out.println("Deseja parar? Pressione s.");
 		
@@ -50,7 +23,4 @@ public class teste {
 		for(int k=0;k<auto.length;k++) {
 			
 			System.out.println(auto[k]);
-}
-		
-	}
 }
