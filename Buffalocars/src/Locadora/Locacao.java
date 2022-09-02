@@ -2,6 +2,7 @@ package Locadora;
 
 import java.util.Date; // Classe data
 
+
 public class Locacao {
 
 	// Atributo
