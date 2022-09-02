@@ -1,9 +1,8 @@
 package Pessoas;
 
-public class Gerente extends Pessoa {
+public class Gerente {
 
 	// Atributos
-	private int id;
 	private String nome;
 	private int idade;
 	private char sexo;
@@ -13,8 +12,7 @@ public class Gerente extends Pessoa {
 	private String email;
 
 	// Contrutore
-	public Gerente(int _id, String _nome, int _idade, char _sexo, long _cpf, String _end, long _fone, String _email) {
-		this.id = _id;
+	public Gerente(String _nome, int _idade, char _sexo, long _cpf, String _end, long _fone, String _email) {
 		this.nome = _nome;
 		this.idade = _idade;
 		this.sexo = _sexo;
@@ -24,20 +22,13 @@ public class Gerente extends Pessoa {
 		this.email = _email;
 	}
 
+	// Metodos (Função)
 	public void cadastraVeiculo() {
 
 	}
 
-	public void cadastraAtendente() {
+	public void cadastraCliente() {
 
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
 	}
 
 	public String getNome() {
@@ -95,5 +86,6 @@ public class Gerente extends Pessoa {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
+
 }
+
