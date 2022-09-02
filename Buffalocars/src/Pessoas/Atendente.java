@@ -12,9 +12,6 @@ public class Atendente extends Pessoa {
 	}
 
 	// Metodos (Função)
-	public void cadastraVeiculo() {
-
-	}
 
 	public void atualizarVeiculo() {
 
