@@ -8,6 +8,16 @@
 		
 
 		auto[i].setPlaca(input.nextLine());
+		auto[i].setCor(input.nextLine());
+		auto[i].setTipoCombu(input.nextLine());
+		auto[i].setTipoAutomovel(input.nextLine());
+		auto[i].setNumPorta(input.nextInt());
+		auto[i].setValorLocacao(input.nextDouble());
+		auto[i].setNome(input.nextLine());
+		auto[i].setDescricao(input.nextLine());
+		auto[i].setCapacidade(input.nextInt());
+		auto[i].setCategoria(input.nextLine());
+		auto[i].setMotor(input.nextDouble());
 		
 		System.out.println("Deseja parar? Pressione s.");
 		
@@ -23,4 +33,5 @@
 		for(int k=0;k<auto.length;k++) {
 			
 			System.out.println(auto[k]);
+}
 }
