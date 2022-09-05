@@ -10,10 +10,9 @@ public class Locar {
 
 		Scanner leia = new Scanner(System.in);
 		Cliente novoCliente = new Cliente();
-		Automovel novoAutomovel = new Automovel(null, null, 0, null, 0, null, null, null);
+		Automovel novoAutomovel = new Automovel(null, null, 0, null, 0, null, 0, 0, null);
 		Marca marca = new Marca();
 		Modelo modelo = new Modelo(null, 0, 0);
-		Scanner sc = new Scanner(System.in);
 
 		// variaveis
 		int opcao = 0;
@@ -44,7 +43,6 @@ public class Locar {
 			novoAutomovel.setPlaca(leia.next());
 			System.out.println("Informe a cor do veiculo: ");
 			novoAutomovel.setCor(leia.next());
-			sc.next();
 			System.out.println("Informe o numero de portas: ");
 			novoAutomovel.setNumPorta(leia.nextInt());
 			System.out.println("Informe o valor para locação: ");
@@ -55,9 +53,9 @@ public class Locar {
 		case 2:
 			System.out.println("Informe a placa do veículo a ser atualizado: ");
 			novoAutomovel.setPlaca(leia.next());
-			System.out.println("Qual informação deseja atualizar: \n1 - Valor da locação.\n2 - Cor do veiculo\n3 - Desativar veiculo.");
-			sc.next();
-			//novoAutomovel.setPlaca(leia.next());
+			System.out.println("Qual informação deseja atualizar: \n1 - Valor da locação.\n2 - Cor do veiculo\n3");
+			opcao = leia.nextInt();
+
 			switch (opcao) {
 			case 1:
 				System.out.println("Informe o valor para locação: ");
@@ -65,16 +63,15 @@ public class Locar {
 				break;
 			case 2:
 				System.out.println("Informe a cor atual do veiculo: ");
-				novoAutomovel.setCor(leia.next());
-				//sc.next();
-				//break;
+				novoAutomovel.setCor(leia.nextLine());
+				break;
 			}
+
 			break;
 
 		case 3:
 			System.out.println("Informe o nome: ");
 			novoCliente.setNome(leia.nextLine());
-			sc.next();
 			System.out.println("Idade: ");
 			novoCliente.setIdade(leia.nextInt());
 			// System.out.println("Sexo ");
@@ -84,9 +81,8 @@ public class Locar {
 			break;
 
 		case 4:
-			System.out.println("Informe o CPF do cliente a ser atualizado: ");
-			novoCliente.setCpf(leia.nextLong());
-			sc.next();
+			System.out.println("Informe o nome: ");
+			novoCliente.setNome(leia.nextLine());
 			System.out.println("Idade: ");
 			novoCliente.setIdade(leia.nextInt());
 			// System.out.println("Sexo ");
