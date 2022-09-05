@@ -1,37 +1,52 @@
+package Veiculo;
 
-	public static void  Cadastrar_veiculo()  {
-		Automovel auto[]=new Automovel[15];
-	 Scanner input= new Scanner(System.in);
-		for(int i =0; i<auto.length;i++) {
-		System.out.println("Digite as seguintes a tribuições em ordem para cadastrar um veículo.\nAo término de digitar cada pressione enter.");
-		System.out.println("Placa\nCor\n\nNumero de portas\nTipo de combustivel\nValor de localção\nTipo de carro\nQuantas pessoas\nTipo do motor\nNome do modelo");
-		
+import java.util.Scanner;
+import Veiculo.*;
 
-		auto[i].setPlaca(input.nextLine());
-		auto[i].setCor(input.nextLine());
-		auto[i].setTipoCombu(input.nextLine());
-		auto[i].setTipoAutomovel(input.nextLine());
-		auto[i].setNumPorta(input.nextInt());
-		auto[i].setValorLocacao(input.nextDouble());
-		auto[i].setNome(input.nextLine());
-		auto[i].setDescricao(input.nextLine());
-		auto[i].setCapacidade(input.nextInt());
-		auto[i].setCategoria(input.nextLine());
-		auto[i].setMotor(input.nextDouble());
-		
-		System.out.println("Deseja parar? Pressione s.");
-		
-	    char d=input.next().charAt(0);
-		
-		if(d=='s') {
+public class teste {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Automovel auto1 = new Automovel("RTI 1C34", "Preto", 4, "Flex", 100.0, "Hatch", 5, 1.6, "VolksWagen Gol");
+		Automovel auto2 = new Automovel("PHL 4O75", "Laranja", 4, "Elétrico", 250.0, "Hatch", 5, 1.4,"Peugeot e-208 GT");
+		Automovel auto3 = new Automovel("EUA 3G08", "Prata", 2, "Diesel", 300.0, "Pickup", 2, 2.8, "Chevrolet S-10");
+		Automovel auto4 = new Automovel("TIE 4A12", "Branco", 4, "Alcool", 60.0, "SUV", 5, 1.5, "Honda HRV");
+		Automovel auto5 = new Automovel("JUI 8P98", "Cinza", 3, "Flex", 200.0, "MiniVan", 8, 1.8, "Fiat Doblo");
+		Automovel auto6 = new Automovel("TAE 6R33", "Azul", 2, "Gasolina", 330.0, "Couper", 2, 2.0, "BMW Cooper");
+		Automovel auto7 = new Automovel("PET 7Y25", "Preto", 2, "Flex", 150.0, "PickUp", 2, 1.4, "Chevrolet Montana");
+		Automovel auto8 = new Automovel("RYU 8I90", "Prata Sand", 4, "Flex", 85, "Sedan", 5, 1.6, "Hyundai HB20S");
+
+		System.out.println("Qual automóvel desejas alugar? Digite um numero ente 1 e 10");
+
+		int i = input.nextInt();
+
+		switch (i) {
+		case 1:
+			System.out.println(auto1);
 			break;
-			
+		case 2:
+			System.out.println(auto2);
+			break;
+		case 3:
+			System.out.println(auto3);
+			break;
+		case 4:
+			System.out.println(auto4);
+			break;
+		case 5:
+			System.out.println(auto5);
+			break;
+		case 6:
+			System.out.println(auto6);
+			break;
+		case 7:
+			System.out.println(auto7);
+			break;
+		case 8:
+			System.out.println(auto8);
+			break;
 		}
+
 	}
-		System.out.println("Aqui segue a lista de carros");
-		
-		for(int k=0;k<auto.length;k++) {
-			
-			System.out.println(auto[k]);
-}
+
 }
