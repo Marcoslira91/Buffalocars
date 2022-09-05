@@ -1,6 +1,6 @@
 package Veiculo;
 
-public class Automovel {
+public class Automovel extends Marca {
 
 	// Atributos
 	private String placa;
@@ -9,20 +9,35 @@ public class Automovel {
 	private String tipoCombu;
 	private double valorLocacao;
 	private Marca marcaAutomovel;
-	private Modelo modeloAutomovel;
+	private String categoria;
+
+	@Override
+	public String toString() {
+		return "Placa do automovel:  " + placa + "\nCor: " + cor + "\nQuantidade de portas: " + numPorta
+				+ "\nTipo do combustivel: " + tipoCombu + "\nValor locacao: " + valorLocacao + "\nModelo: " + categoria
+				+ "\nCapacidade: " + capacidade + "\nMotor: " + motor + "\nTipo do automovel: " + tipoAutomovel;
+	}
+
+	private int capacidade;
+	private double motor;
+
+	// private Modelo modeloAutomovel;
 	private String tipoAutomovel;
 
 	// Contrutores
 	public Automovel(String _placa, String _cor, int _numPorta, String _tipoCombu, double _valorLocacao,
-			Marca _marcaAutomovel, Modelo _modeloAutomovel, String _tipoAutomovel) {
+			String _tipoAutomovel, int capacidade, double motor, String categoria) {
 		this.placa = _placa;
 		this.cor = _cor;
 		this.numPorta = _numPorta;
 		this.tipoCombu = _tipoCombu;
 		this.valorLocacao = _valorLocacao;
-		this.marcaAutomovel = _marcaAutomovel;
-		this.modeloAutomovel = _modeloAutomovel;
+		// this.marcaAutomovel = _marcaAutomovel;
+		// this.modeloAutomovel = _modeloAutomovel;
 		this.tipoAutomovel = _tipoAutomovel;
+		this.capacidade = capacidade;
+		this.categoria = categoria;
+		this.motor = motor;
 	}
 
 	// Metodos Abstratos
@@ -83,28 +98,54 @@ public class Automovel {
 		this.valorLocacao = valorLocacao;
 	}
 
-	public Marca getMarcaAutomovel() {
-		return marcaAutomovel;
-	}
-
-	public void setMarcaAutomovel(Marca marcaAutomovel) {
-		this.marcaAutomovel = marcaAutomovel;
-	}
-
-	public Modelo getModeloAutomovel() {
-		return modeloAutomovel;
-	}
-
-	public void setModeloAutomovel(Modelo modeloAutomovel) {
-		this.modeloAutomovel = modeloAutomovel;
-	}
-
+	/*
+	 * public Marca getMarcaAutomovel() { return marcaAutomovel; }
+	 * 
+	 * public void setMarcaAutomovel(Marca marcaAutomovel) { this.marcaAutomovel =
+	 * marcaAutomovel; } public Modelo getModeloAutomovel() { return
+	 * getModeloAutomovel(); }
+	 * 
+	 * public void setModeloAutomovel(Modelo modeloAutomovel) { this.modeloAutomovel
+	 * = modeloAutomovel; }
+	 */
 	public String getTipoAutomovel() {
 		return tipoAutomovel;
 	}
 
 	public void setTipoAutomovel(String tipoAutomovel) {
 		this.tipoAutomovel = tipoAutomovel;
+	}
+
+	public String getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
+	}
+
+	public int getCapacidade() {
+		return capacidade;
+	}
+
+	public void setCapacidade(int capacidade) {
+		this.capacidade = capacidade;
+	}
+
+	public double getMotor() {
+		return motor;
+	}
+
+	public void setMotor(double motor) {
+		this.motor = motor;
+	}
+
+	public Marca getMarcaAutomovel() {
+		return marcaAutomovel;
+	}
+
+	public void setMarcaAutomovel(Marca marcaAutomovel) {
+		this.marcaAutomovel = marcaAutomovel;
 	}
 
 }
