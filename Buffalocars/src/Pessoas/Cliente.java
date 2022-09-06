@@ -7,7 +7,7 @@ public class Cliente extends Pessoa {
 	private long cnh;
 
 	// Contrutore
-	public Cliente(String _nome, int _idade, char _sexo, long _cpf, String _end, long _fone, String _email, int _id,
+	public Cliente(String _nome, int _idade, String _sexo, long _cpf, String _end, long _fone, String _email, int _id,
 			long _cnh) {
 		super(_nome, _idade, _sexo, _cpf, _end, _fone, _email);
 		this.id = _id;
@@ -68,13 +68,13 @@ public class Cliente extends Pessoa {
 	}
 
 	@Override
-	public char getSexo() {
+	public String getSexo() {
 		// TODO Auto-generated method stub
 		return super.getSexo();
 	}
 
 	@Override
-	public void setSexo(char sexo) {
+	public void setSexo(String sexo) {
 		// TODO Auto-generated method stub
 		super.setSexo(sexo);
 	}
