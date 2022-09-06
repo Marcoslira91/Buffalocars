@@ -6,7 +6,7 @@ public class Atendente extends Pessoa {
 	private int id;
 
 	// Contrutore
-	public Atendente(String _nome, int _idade, char _sexo, long _cpf, String _end, long _fone, String _email, int _id) {
+	public Atendente(String _nome, int _idade, String _sexo, long _cpf, String _end, long _fone, String _email, int _id) {
 		super(_nome, _idade, _sexo, _cpf, _end, _fone, _email);
 		this.id = _id;
 	}
@@ -54,13 +54,13 @@ public class Atendente extends Pessoa {
 	}
 
 	@Override
-	public char getSexo() {
+	public String getSexo() {
 		// TODO Auto-generated method stub
 		return super.getSexo();
 	}
 
 	@Override
-	public void setSexo(char sexo) {
+	public void setSexo(String sexo) {
 		// TODO Auto-generated method stub
 		super.setSexo(sexo);
 	}
