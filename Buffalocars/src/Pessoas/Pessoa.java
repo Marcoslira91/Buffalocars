@@ -5,14 +5,14 @@ public abstract class Pessoa {
 	// Atributos
 	private String nome;
 	private int idade;
-	private char sexo;
+	private String sexo;
 	private long cpf;
 	private String end;// criar classe
 	private long fone;
 	private String email;
 
 	// Contrutore
-	public Pessoa(String _nome, int _idade, char _sexo, long _cpf, String _end, long _fone, String _email) {
+	public Pessoa(String _nome, int _idade, String _sexo, long _cpf, String _end, long _fone, String _email) {
 		this.nome = _nome;
 		this.idade = _idade;
 		this.sexo = _sexo;
@@ -41,11 +41,11 @@ public abstract class Pessoa {
 		this.idade = idade;
 	}
 
-	public char getSexo() {
+	public String getSexo() {
 		return sexo;
 	}
 
-	public void setSexo(char sexo) {
+	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
 
