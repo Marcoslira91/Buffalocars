@@ -5,15 +5,15 @@ public class Marca {
 	// Atributos
 	private String nome;
 	private String descricao;
-	
 
 	// Contrutores
-	public Marca(String _nome,String _descricao) {
+	public Marca(String _nome, String _descricao) {
 		this.nome = _nome;
 		this.descricao = _descricao;
 	}
+
 	public Marca() {
-		
+
 	}
 
 	public String getNome() {
@@ -24,7 +24,6 @@ public class Marca {
 		this.nome = nome;
 	}
 
-	// Metodos
 	public String getDescricao() {
 		return descricao;
 	}
